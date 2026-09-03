@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-08-23T20:00:49 IST" name="Suite" finished-at="2026-08-23T20:02:56 IST" duration-ms="126889">
+    <groups>
+    </groups>
+    <test started-at="2026-08-23T20:00:49 IST" name="Test" finished-at="2026-08-23T20:02:56 IST" duration-ms="126889">
+      <class name="RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture">
+        <test-method is-config="true" signature="setup()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture@4690b489]" started-at="2026-08-23T20:00:58 IST" name="setup" finished-at="2026-08-23T20:01:07 IST" duration-ms="9291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyInOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture@4690b489]" started-at="2026-08-23T20:01:07 IST" name="VerifyInOrder" data-provider="datasetToVerify" finished-at="2026-08-23T20:01:09 IST" duration-ms="2032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[athira@exmplish.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Example@2026]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ZARA COAT 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInOrder -->
+        <test-method is-config="true" signature="closeall()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture@4690b489]" started-at="2026-08-23T20:01:09 IST" name="closeall" finished-at="2026-08-23T20:01:09 IST" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeall -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture@4690b489]" started-at="2026-08-23T20:01:10 IST" name="setup" finished-at="2026-08-23T20:02:14 IST" duration-ms="64334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="shopping(java.util.HashMap)[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture@4690b489]" started-at="2026-08-23T20:02:14 IST" name="shopping" data-provider="fromJson" finished-at="2026-08-23T20:02:24 IST" duration-ms="10153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pass=Example@2026, user=athira@exmplish.com, item=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopping -->
+        <test-method is-config="true" signature="closeall()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture@4690b489]" started-at="2026-08-23T20:02:24 IST" name="closeall" finished-at="2026-08-23T20:02:25 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeall -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture@4690b489]" started-at="2026-08-23T20:02:25 IST" name="setup" finished-at="2026-08-23T20:02:42 IST" duration-ms="17597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="shopping(java.util.HashMap)[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture@4690b489]" started-at="2026-08-23T20:02:42 IST" name="shopping" data-provider="fromJson" finished-at="2026-08-23T20:02:49 IST" duration-ms="6746" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pass=Example@2026, user=athira@exmplish.com, item=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.util.NoSuchElementException">
+            <message>
+              <![CDATA[No value present]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.util.NoSuchElementException: No value present
+at java.base/java.util.Optional.orElseThrow(Optional.java:377)
+at RahulShettyAcademy.SeleniumFrameworkDesign.Products.ProductsPage(Products.java:43)
+at RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture.shopping(shoppingCartToRefacture.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopping -->
+        <test-method is-config="true" signature="closeall()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture@4690b489]" started-at="2026-08-23T20:02:49 IST" name="closeall" finished-at="2026-08-23T20:02:49 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeall -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture@4690b489]" started-at="2026-08-23T20:02:49 IST" name="setup" finished-at="2026-08-23T20:02:55 IST" duration-ms="5483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="shopping(java.util.HashMap)[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture@4690b489]" started-at="2026-08-23T20:02:55 IST" name="shopping" data-provider="fromJson" finished-at="2026-08-23T20:02:56 IST" duration-ms="1422" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pass=Example@2026, user=athira@exmplish.com, item=IPHONE 13 PRO}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.util.NoSuchElementException">
+            <message>
+              <![CDATA[No value present]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.util.NoSuchElementException: No value present
+at java.base/java.util.Optional.orElseThrow(Optional.java:377)
+at RahulShettyAcademy.SeleniumFrameworkDesign.Products.ProductsPage(Products.java:43)
+at RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture.shopping(shoppingCartToRefacture.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopping -->
+        <test-method is-config="true" signature="closeall()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture@4690b489]" started-at="2026-08-23T20:02:56 IST" name="closeall" finished-at="2026-08-23T20:02:56 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeall -->
+      </class> <!-- RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture -->
+      <class name="RahulShettyAcademy.SeleniumFrameworkDesign.errorValidation">
+        <test-method signature="incorrectUser()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.errorValidation@4ddced80]" started-at="2026-08-23T20:00:58 IST" name="incorrectUser" finished-at="2026-08-23T20:01:07 IST" duration-ms="9100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectUser -->
+      </class> <!-- RahulShettyAcademy.SeleniumFrameworkDesign.errorValidation -->
+      <class name="RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCart">
+        <test-method is-config="true" signature="setup()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCart@72a7c7e0]" started-at="2026-08-23T20:00:49 IST" name="setup" finished-at="2026-08-23T20:00:58 IST" duration-ms="8084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="shopping()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCart@72a7c7e0]" started-at="2026-08-23T20:00:58 IST" name="shopping" finished-at="2026-08-23T20:01:08 IST" duration-ms="10209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopping -->
+        <test-method is-config="true" signature="closeall()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCart@72a7c7e0]" started-at="2026-08-23T20:02:56 IST" name="closeall" finished-at="2026-08-23T20:02:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeall -->
+      </class> <!-- RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCart -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

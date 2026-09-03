@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name="RahulShettyAcademy.SeleniumFrameworkDesign.testutilities.Listerners"/>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="RahulShettyAcademy.SeleniumFrameworkDesign.errorValidation"/>
+      <class name="RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture"/>
+      <class name="RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCart"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
