@@ -9,7 +9,6 @@
     <classes>
       <class name="RahulShettyAcademy.SeleniumFrameworkDesign.errorValidation"/>
       <class name="RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture"/>
-      <class name="RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCart"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

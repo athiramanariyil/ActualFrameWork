@@ -19,7 +19,7 @@ public class errorValidation extends baseTest{
 		Products pdt=login.enterCred(user,Passcode);
 		String errorMsg=login.getErrorMsg();
 		System.out.println(errorMsg);
-		Assert.assertTrue(errorMsg.equalsIgnoreCase("Incorrect emai l or password."));
+		Assert.assertTrue(errorMsg.equalsIgnoreCase("Incorrect email or password."));
 		//updated
 
 		

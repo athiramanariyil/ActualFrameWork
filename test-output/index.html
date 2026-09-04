@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\DELL\eclipse-workspace\Handson\RahulShettyAcademy.SeleniumFrameworkDesign-0.0.1-SNAPSHOT\errorValidation.xml</span>
+                    <span>C:\Users\DELL\eclipse-workspace\Handson\RahulShettyAcademy.SeleniumFrameworkDesign-0.0.1-SNAPSHOT\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="RahulShettyAcademy.SeleniumFrameworkDesign.errorValidation" class="method navigator-link" hash-for-method="incorrectUser">incorrectUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +117,22 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="RahulShettyAcademy.SeleniumFrameworkDesign.errorValidation" class="method navigator-link" hash-for-method="incorrectUser">incorrectUser</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture" class="method navigator-link" hash-for-method="VerifyInOrder(athira@exmplish.com, Example@2026, ZARA COAT 3)">VerifyInOrder(athira@exmplish.com, Example@2026, ZARA COAT 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture" class="method navigator-link" hash-for-method="shopping({pass=Example@2026, user=athira@exmplish.com, item=ADIDAS ORIGINAL})">shopping({pass=Example@2026, user=athira@exmplish.com, item=ADIDAS ORIGINAL})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture" class="method navigator-link" hash-for-method="shopping({pass=Example@2026, user=athira@exmplish.com, item=ZARA COAT 3})">shopping({pass=Example@2026, user=athira@exmplish.com, item=ZARA COAT 3})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture" class="method navigator-link" hash-for-method="shopping({pass=Example@2026, user=athira@exmplish.com, item=IPHONE 13 PRO})">shopping({pass=Example@2026, user=athira@exmplish.com, item=IPHONE 13 PRO})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -118,9 +147,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">RahulShettyAcademy.SeleniumFrameworkDesign.errorValidation</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -129,6 +158,51 @@
                   <a name="incorrectUser">
                   </a> <!-- incorrectUser -->
                   <span class="method-name">incorrectUser</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at RahulShettyAcademy.SeleniumFrameworkDesign.errorValidation.incorrectUser(errorValidation.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyInOrder(athira@exmplish.com, Example@2026, ZARA COAT 3)">
+                  </a> <!-- VerifyInOrder(athira@exmplish.com, Example@2026, ZARA COAT 3) -->
+                  <span class="method-name">VerifyInOrder</span>
+                  <span class="parameters">(athira@exmplish.com,Example@2026,ZARA COAT 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shopping({pass=Example@2026, user=athira@exmplish.com, item=ADIDAS ORIGINAL})">
+                  </a> <!-- shopping({pass=Example@2026, user=athira@exmplish.com, item=ADIDAS ORIGINAL}) -->
+                  <span class="method-name">shopping</span>
+                  <span class="parameters">({pass=Example@2026, user=athira@exmplish.com, item=ADIDAS ORIGINAL})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shopping({pass=Example@2026, user=athira@exmplish.com, item=ZARA COAT 3})">
+                  </a> <!-- shopping({pass=Example@2026, user=athira@exmplish.com, item=ZARA COAT 3}) -->
+                  <span class="method-name">shopping</span>
+                  <span class="parameters">({pass=Example@2026, user=athira@exmplish.com, item=ZARA COAT 3})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shopping({pass=Example@2026, user=athira@exmplish.com, item=IPHONE 13 PRO})">
+                  </a> <!-- shopping({pass=Example@2026, user=athira@exmplish.com, item=IPHONE 13 PRO}) -->
+                  <span class="method-name">shopping</span>
+                  <span class="parameters">({pass=Example@2026, user=athira@exmplish.com, item=IPHONE 13 PRO})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,16 +210,20 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\DELL\eclipse-workspace\Handson\RahulShettyAcademy.SeleniumFrameworkDesign-0.0.1-SNAPSHOT\errorValidation.xml</span>
+            <span class="header-content">C:\Users\DELL\eclipse-workspace\Handson\RahulShettyAcademy.SeleniumFrameworkDesign-0.0.1-SNAPSHOT\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;RahulShettyAcademy.SeleniumFrameworkDesign.testutilities.Listerners&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;RahulShettyAcademy.SeleniumFrameworkDesign.errorValidation&quot;/&gt;
+      &lt;class name=&quot;RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -159,7 +237,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -185,16 +263,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'incorrectUser')
-data.setCell(0, 2, 'RahulShettyAcademy.SeleniumFrameworkDesign.errorValidation')
-data.setCell(0, 3, 10916);
+data.setCell(0, 1, 'shopping')
+data.setCell(0, 2, 'RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture')
+data.setCell(0, 3, 12576);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'shopping')
+data.setCell(1, 2, 'RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture')
+data.setCell(1, 3, 7371);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'shopping')
+data.setCell(2, 2, 'RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture')
+data.setCell(2, 3, 7281);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'incorrectUser')
+data.setCell(3, 2, 'RahulShettyAcademy.SeleniumFrameworkDesign.errorValidation')
+data.setCell(3, 3, 6539);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyInOrder')
+data.setCell(4, 2, 'RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture')
+data.setCell(4, 3, 1919);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 35 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -222,9 +316,62 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">RahulShettyAcademy.SeleniumFrameworkDesign.errorValidation</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">incorrectUser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">6976 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyInOrder(athira@exmplish.com, Example@2026, ZARA COAT 3)</span>
+                <span class="method-start">12169 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeall</span>
+                <span class="method-start">14089 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">14875 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shopping({pass=Example@2026, user=athira@exmplish.com, item=ZARA COAT 3})</span>
+                <span class="method-start">21031 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeall</span>
+                <span class="method-start">33607 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">33905 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shopping({pass=Example@2026, user=athira@exmplish.com, item=ADIDAS ORIGINAL})</span>
+                <span class="method-start">37358 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeall</span>
+                <span class="method-start">44641 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">44872 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shopping({pass=Example@2026, user=athira@exmplish.com, item=IPHONE 13 PRO})</span>
+                <span class="method-start">49585 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeall</span>
+                <span class="method-start">56958 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

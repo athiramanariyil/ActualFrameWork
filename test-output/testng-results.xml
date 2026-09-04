@@ -1,13 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-03T12:59:22 IST" name="Suite" finished-at="2026-09-03T12:59:33 IST" duration-ms="10977">
+  <suite started-at="2026-09-04T18:36:53 IST" name="Suite" finished-at="2026-09-04T18:37:50 IST" duration-ms="57246">
     <groups>
     </groups>
-    <test started-at="2026-09-03T12:59:22 IST" name="Test" finished-at="2026-09-03T12:59:33 IST" duration-ms="10977">
+    <test started-at="2026-09-04T18:36:53 IST" name="Test" finished-at="2026-09-04T18:37:50 IST" duration-ms="57246">
+      <class name="RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture">
+        <test-method is-config="true" signature="setup()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture@f6c03cb]" started-at="2026-09-04T18:37:00 IST" name="setup" finished-at="2026-09-04T18:37:05 IST" duration-ms="5192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyInOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture@f6c03cb]" started-at="2026-09-04T18:37:05 IST" name="VerifyInOrder" data-provider="datasetToVerify" finished-at="2026-09-04T18:37:07 IST" duration-ms="1919" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[athira@exmplish.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Example@2026]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ZARA COAT 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInOrder -->
+        <test-method is-config="true" signature="closeall()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture@f6c03cb]" started-at="2026-09-04T18:37:07 IST" name="closeall" finished-at="2026-09-04T18:37:07 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeall -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture@f6c03cb]" started-at="2026-09-04T18:37:08 IST" name="setup" finished-at="2026-09-04T18:37:14 IST" duration-ms="6156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="shopping(java.util.HashMap)[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture@f6c03cb]" started-at="2026-09-04T18:37:14 IST" name="shopping" data-provider="fromJson" finished-at="2026-09-04T18:37:26 IST" duration-ms="12576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pass=Example@2026, user=athira@exmplish.com, item=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopping -->
+        <test-method is-config="true" signature="closeall()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture@f6c03cb]" started-at="2026-09-04T18:37:26 IST" name="closeall" finished-at="2026-09-04T18:37:27 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeall -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture@f6c03cb]" started-at="2026-09-04T18:37:27 IST" name="setup" finished-at="2026-09-04T18:37:30 IST" duration-ms="3453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="shopping(java.util.HashMap)[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture@f6c03cb]" started-at="2026-09-04T18:37:30 IST" name="shopping" data-provider="fromJson" finished-at="2026-09-04T18:37:37 IST" duration-ms="7281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pass=Example@2026, user=athira@exmplish.com, item=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopping -->
+        <test-method is-config="true" signature="closeall()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture@f6c03cb]" started-at="2026-09-04T18:37:37 IST" name="closeall" finished-at="2026-09-04T18:37:38 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeall -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture@f6c03cb]" started-at="2026-09-04T18:37:38 IST" name="setup" finished-at="2026-09-04T18:37:42 IST" duration-ms="4713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="shopping(java.util.HashMap)[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture@f6c03cb]" started-at="2026-09-04T18:37:42 IST" name="shopping" data-provider="fromJson" finished-at="2026-09-04T18:37:50 IST" duration-ms="7371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pass=Example@2026, user=athira@exmplish.com, item=IPHONE 13 PRO}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopping -->
+        <test-method is-config="true" signature="closeall()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture@f6c03cb]" started-at="2026-09-04T18:37:50 IST" name="closeall" finished-at="2026-09-04T18:37:50 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeall -->
+      </class> <!-- RahulShettyAcademy.SeleniumFrameworkDesign.shoppingCartToRefacture -->
       <class name="RahulShettyAcademy.SeleniumFrameworkDesign.errorValidation">
-        <test-method signature="incorrectUser()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.errorValidation@2e6a5539]" started-at="2026-09-03T12:59:22 IST" name="incorrectUser" finished-at="2026-09-03T12:59:33 IST" duration-ms="10916" status="PASS">
+        <test-method signature="incorrectUser()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.errorValidation@4e517165]" started-at="2026-09-04T18:36:53 IST" name="incorrectUser" finished-at="2026-09-04T18:36:59 IST" duration-ms="6539" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at RahulShettyAcademy.SeleniumFrameworkDesign.errorValidation.incorrectUser(errorValidation.java:22)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- incorrectUser -->
