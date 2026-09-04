@@ -23,11 +23,6 @@ public class errorValidation extends baseTest{
 		//updated
 
 		
-	}
-	//just to check git status
-	@Test
-	public void testingAgian() {
-		System.out.println("error");
 
 }
 }
