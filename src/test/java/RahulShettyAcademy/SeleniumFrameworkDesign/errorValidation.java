@@ -28,5 +28,6 @@ public class errorValidation extends baseTest{
 	@Test
 	public void justAchange() {
 		System.out.println("CICD works as expected");
+		System.out.println("yutubeeee");
 	}
 }
